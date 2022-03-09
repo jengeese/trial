@@ -1,0 +1,29 @@
+{
+  "name": "cengiz-vardar",
+  "version": "1.0.0",
+  "description": "Bu bir deneme projesidir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cengiz": "echo 'Benim adım Cengiz'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "paket"
+  ],
+  "author": "Cengiz Vardar",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.2.4",
+    "nodemailer": "^6.7.2",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/jengeese/trial.git"
+  }
+}
